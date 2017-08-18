@@ -1,5 +1,4 @@
 # Need to run through procedure again and polish readme, must be able to replicate
-Must move non-functioning or deprecated scripts to `other` folder in order to better organize program
 
 ## requirements,
 4GB RAM?
