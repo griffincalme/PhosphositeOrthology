@@ -1,0 +1,5 @@
+my_human_uniprot_id,Position,Type,CAEEL orthologous phosphosite,DROME orthologous phosphosite,MOUSE orthologous phosphosite,RATNO orthologous phosphosite,SCHPO orthologous phosphosite,YEAST orthologous phosphosite
+Q9UN37,97,S,True,False,True,False,False,False
+Q9UI12,388,Y,False,False,True,True,False,False
+Q8TDY2,222,S,False,False,True,True,False,False
+P62241,69,S,False,False,True,True,True,True
