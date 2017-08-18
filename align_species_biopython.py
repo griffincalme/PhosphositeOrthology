@@ -7,8 +7,6 @@ import os
 #start_secs = time.time()
 
 
-
-
 def align_species_biopython():
     engine = create_engine('sqlite:///phosphosite_orthology_cleaned.db')  # create db in outside directory
     #engine_out = create_engine('sqlite:///phosphosite_orthologs_only_test_biopy.db')  # create db in outside directory
@@ -16,17 +14,17 @@ def align_species_biopython():
         os.makedirs('aligned_phos_ortholog_pairs/')
 
 
-
     table_iter = engine.execute("SELECT name FROM sqlite_master WHERE type='table';")
     table_list = [i[0] for i in table_iter]
 
-    print(table_list)
+    # print(table_list)
+    print('\n')
 
     # USE species_index TO CHANGE WHICH TABLE IS RUN, 0 = CAEEL, 1 = DROME, 2 = MOUSE ...
     for i in range(0,6):
         species_index = i
         species_id = table_list[species_index][:5]
-        print(species_id)
+        print(species_id + 'aln done...')
         new_aln_col_string = 'aln_' + species_id     # used to create a new df col 'aln_CAEEL' etc...
 
         # must change species ID (i.e. 'CAEEL') for each species sql table,
@@ -37,9 +35,7 @@ def align_species_biopython():
         species2_cols = [col for col in df.columns if str(species_id) in col] #list of all columns that contain identifier
         HUMAN_cols = [col for col in df.columns if 'HUMAN' in col]
 
-
-        print('')
-
+        # print('')
 
         # accepts sequence and phosphosite position (1-based index), returns the position within the aln string(0-based index,
         # counts dashes of aligned seq)
