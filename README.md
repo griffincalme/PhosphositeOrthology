@@ -1,11 +1,15 @@
-# Need to run through procedure again and polish readme, must be able to replicate
+# Readme needs a lot of polish
+## I'd like to get it to the point where people other than me can replicate the database build part
 
 ## requirements,
-4GB RAM?
-Python3
-Non-Standard Packages: pandas, sqlalchemy, 
-Standard: os, ast, collections, time, sqlite3
-Linux to run OMA
+A lot of RAM for the db build, it should work with 8? 
+Python 3
+Non-Standard Packages (must pip or conda install these): pandas, sqlalchemy, Biopython
+Standard: os, ast, collections, time, sqlite3, collections, urllib, zipfile, tarfile, shutil
+Linux to run OMA software
+
+
+# Database Build
 
 ## Step 1
 Download dbPAF for all animal species
@@ -74,8 +78,9 @@ phosphosite position. Saves each species as a new csv.
 
 
 
+# Check sites
 
-# CheckMyList.py
+## CheckMyList.py
 
 input csv:
 
@@ -90,7 +95,7 @@ outputs matrix of T/F whether or not id and site was found in other organism
 
 
 
-# PSPS_DB_comparison.py
+## PSPS_DB_comparison.py
 each phosphosite ortholog has a site group ID
 
 SITE_GRP for AKT2:  2147001
@@ -100,9 +105,6 @@ exists for both human and mouse
 
 # ToDo
 
-- finish psp db comparison by including site with id 
-
-- create main.py to run all scripts and automate downloads
 - polish readme 
 
 - tweak alignment parameters to increase psp match percentages
