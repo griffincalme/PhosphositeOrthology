@@ -1,5 +1,6 @@
 # Readme needs a lot of polish
 ## I'd like to get it to the point where people other than me can replicate the database build part
+I'll probably implement a webserver that builds the db on my machine and then allows you to download `phosphosite_orthology_cleaned.db` in order to query using `CheckMyList.py`. Could also upload list and return a result csv.
 
 ## requirements,
 A lot of RAM for the db build, it should work with 8? 
