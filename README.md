@@ -1,4 +1,4 @@
-# How to Check your UniProt ID's using my database build:
+# How to Check your Human UniProt ID's for Orthologs in Other Species Using My Database Build:
 
 Download the aligned phosphosite pairs for each species (unzip the csv files)
 https://drive.google.com/drive/folders/0B0vdcG80j8DDV0NES2dLWEdEeFE?usp=sharing
