@@ -7,7 +7,7 @@ https://drive.google.com/drive/folders/0B0vdcG80j8DDV0NES2dLWEdEeFE?usp=sharing
 
 input csv:
 ```
-my_human_uniprot_id		Position		Type
+my_human_uniprot_id		    Position		              Type
 Q9UN37					97				S
 Q9UI12					338				Y
 Q8TDY2					222				S
