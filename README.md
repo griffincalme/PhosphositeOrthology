@@ -1,4 +1,26 @@
-# Readme needs a lot of polish
+# How to Check your UniProt ID's using my database build:
+
+Download the aligned phosphosite pairs for each species (unzip the csv files)
+https://drive.google.com/drive/folders/0B0vdcG80j8DDV0NES2dLWEdEeFE?usp=sharing
+
+## Create a csv titled 'mylist.csv' as shown in the example:
+
+input csv:
+
+my_human_uniprot_id		Position		Type
+Q9UN37					97				S
+Q9UI12					338				Y
+Q8TDY2					222				S
+P62241					69				S
+					
+## Then run `CheckMyList.py`
+
+Outputs csv of T/F whether or not id and site was found in other organism
+
+
+
+# To implement your own database build:
+## Readme needs a lot of polish
 ## I'd like to get it to the point where people other than me can replicate the database build part
 I'll probably implement a webserver that builds the db on my machine and then allows you to download `phosphosite_orthology_cleaned.db` in order to query using `CheckMyList.py`. Could also upload list and return a result csv.
 
