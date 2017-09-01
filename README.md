@@ -6,13 +6,13 @@ https://drive.google.com/drive/folders/0B0vdcG80j8DDV0NES2dLWEdEeFE?usp=sharing
 ## Create a csv titled 'mylist.csv' as shown in the example:
 
 input csv:
-
+```
 my_human_uniprot_id		Position		Type
 Q9UN37					97				S
 Q9UI12					338				Y
 Q8TDY2					222				S
 P62241					69				S
-					
+```					
 ## Then run `CheckMyList.py`
 
 Outputs csv of T/F whether or not id and site was found in other organism
