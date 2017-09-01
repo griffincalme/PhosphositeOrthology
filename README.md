@@ -17,7 +17,7 @@ P62241					69				S
 
 Outputs csv of T/F whether or not id and site was found in other organism
 
-## ---------------------
+## _______________________________
 
 # To implement your own database build:
 ## Readme needs a lot of polish
