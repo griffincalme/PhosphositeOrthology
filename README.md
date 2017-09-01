@@ -106,13 +106,13 @@ phosphosite position. Saves each species as a new csv.
 ## CheckMyList.py
 
 input csv:
-
-my_human_uniprot_id		Position		Type
+```
+my_human_uniprot_id		   Position		             Type
 Q9UN37					97				S
 Q9UI12					338				Y
 Q8TDY2					222				S
 P62241					69				S
-
+```
 
 outputs matrix of T/F whether or not id and site was found in other organism
 
